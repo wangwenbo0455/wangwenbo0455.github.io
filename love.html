@@ -134,7 +134,7 @@
             S.Drawing.init('.canvas');
             document.body.classList.add('body--ready');
 			//想说的话
-            S.UI.simulate("麻可鑫|我们|相爱|100天|仅此纪念|未来的日子|我与你相伴|#countdown 3|#time");
+            S.UI.simulate("可鑫|我们|相爱|100|天啦|仅此|纪念|未来|日子|我愿|与你|携手|相伴|不离|不弃|感谢|你对|我的|照顾|还有|关心|love|you|#countdown 3|#time");
             S.Drawing.loop(function () {
                 S.Shape.render();
             });
@@ -173,7 +173,7 @@
             },
             adjustCanvas: function () {
                 canvas.width = window.innerWidth - 100;
-                canvas.height = window.innerHeight - 30;
+                canvas.height = window.innerHeight - 100;
             },
             clearFrame: function () {
                 context.clearRect(0, 0, canvas.width, canvas.height);
@@ -196,7 +196,7 @@
         var interval,
             currentAction,
             time,
-            maxShapeSize = 30,
+            maxShapeSize = 100,
             sequence = [],
             cmd = '#';
 
